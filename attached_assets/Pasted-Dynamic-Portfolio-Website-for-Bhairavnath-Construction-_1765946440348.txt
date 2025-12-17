@@ -1,0 +1,298 @@
+Dynamic Portfolio Website for Bhairavnath Construction ARP (ARP – Admin + User Panel)
+🔹 ROLE
+You are an expert full-stack web developer, system architect, and senior UI/UX designer.
+
+Design and develop a complete, modern, responsive, database-driven portfolio website for a Civil Engineer / Builder who works on building construction and road projects.
+
+The system must be error-free, scalable, and ready for live hosting.
+
+🔹 PROJECT OVERVIEW
+This website acts as a digital portfolio and business platform where:
+
+The Civil Engineer (Admin) manages all content using an Admin Role Panel (ARP)
+
+Clients (Users) can view completed and ongoing projects before hiring
+
+The platform increases trust, transparency, and professional credibility
+
+🔹 USER ROLES
+🧑‍💼 Admin (Civil Engineer / Builder)
+Secure login
+
+Full control over content, projects, services, and inquiries
+
+👥 User (Client / Visitor)
+No login required
+
+Can browse projects and contact the engineer
+
+🔹 SYSTEM STRUCTURE
+1️⃣ Admin Panel (ARP)
+2️⃣ User Website (Public Facing)
+Both must be connected to the same database.
+
+🧑‍💼 ADMIN PANEL (ARP) – FULL FUNCTIONALITY
+🔐 Admin Authentication
+Login page with Email + Password
+
+Logout button
+
+Only authenticated admin can access dashboard
+
+📊 Admin Dashboard
+UI:
+
+Clean sidebar layout
+
+Top statistic cards
+
+Cards show:
+
+Total Projects
+
+Completed Projects
+
+Ongoing Projects
+
+Buttons & Actions:
+
+Clicking a stat card filters projects automatically
+
+🏗️ Project Management Module
+➕ Add Project Button
+Action:
+
+Opens “Add Project Form”
+
+📝 Add / Edit Project Form
+Fields:
+
+Project Name (text)
+
+Project Type (dropdown: Road / Residential / Commercial / Infrastructure)
+
+Location (text)
+
+Duration (text)
+
+Budget (optional)
+
+Description (textarea)
+
+Status (Completed / Ongoing)
+
+Image Upload (multiple images)
+
+Publish Toggle (ON/OFF)
+
+Buttons:
+
+Save Project: Stores data in database
+
+Update Project: Updates existing record
+
+Cancel: Returns to project list
+
+📋 Project List Table
+Each row shows:
+
+Project image thumbnail
+
+Project name
+
+Type
+
+Status
+
+Publish status
+
+Buttons:
+
+Edit: Opens project form with existing data
+
+Delete: Shows confirmation modal → deletes from DB
+
+Publish / Unpublish Toggle: Controls visibility on user website
+
+🖼️ Gallery Management
+Shows all uploaded images
+
+Admin can delete unused images
+
+Images are optimized automatically
+
+🛠️ Services Management
+Fields:
+
+Service Name
+
+Service Description
+
+Icon/Image
+
+Buttons:
+
+Add Service
+
+Edit Service
+
+Delete Service
+
+👤 Profile Management
+Admin can update:
+
+Engineer name
+
+Years of experience
+
+Certifications
+
+Contact details
+
+About description
+
+📩 Inquiry Management
+Displays:
+
+Client name
+
+Email
+
+Message
+
+Date
+
+Actions:
+
+View full message
+
+Mark as read
+
+🌐 USER WEBSITE – FULL UI + BEHAVIOR
+🏠 Home Page
+UI Sections:
+
+Hero section (Engineer name + tagline)
+
+CTA buttons
+
+Featured projects
+
+Services preview
+
+Why Choose Us
+
+Footer
+
+Buttons:
+
+View Projects: Scrolls / navigates to Projects page
+
+Contact Us: Navigates to Contact page
+
+👷 About Page
+Engineer profile card
+
+Experience timeline
+
+Certifications
+
+Vision & mission
+
+🏗️ Projects Page
+UI:
+
+Grid-based project cards
+
+Category filter buttons:
+
+All
+
+Road
+
+Residential
+
+Commercial
+
+Project Card Click Action:
+
+Opens Project Detail Page
+
+📸 Project Detail Page
+Displays:
+
+Image gallery slider
+
+Full project description
+
+Location
+
+Duration
+
+Budget
+
+Status
+
+Button:
+
+Contact Engineer: Opens Contact page
+
+🛠️ Services Page
+Card-based layout
+
+Service icon + description
+
+🤝 Why Choose Us Section
+Quality Work
+
+Experienced Team
+
+Transparent Process
+
+📞 Contact Page
+Form Fields:
+
+Name
+
+Email
+
+Message
+
+Buttons:
+
+Submit: Saves inquiry to database & shows success message
+
+Other UI:
+
+Phone number
+
+Email
+
+Office address
+
+Google Maps placeholder
+
+🎨 UI / UX DESIGN INSTRUCTIONS
+Theme & Colors
+Primary: Steel Blue, Dark Grey
+
+Secondary: White, Light Grey
+
+Accent: Construction Yellow / Orange
+
+Typography
+Headings: Poppins / Montserrat (Bold)
+
+Body: Inter / Roboto
+
+Design Rules
+Card-based layouts
+
+Consistent spacing
+
+Smooth hover effects
+
+Mobile-first responsive design
+
+Real-world construction visuals
+

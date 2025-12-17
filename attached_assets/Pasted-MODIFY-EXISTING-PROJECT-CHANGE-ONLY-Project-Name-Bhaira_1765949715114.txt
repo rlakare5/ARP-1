@@ -1,0 +1,109 @@
+MODIFY EXISTING PROJECT (CHANGE ONLY)
+
+Project Name: Bhairavnath Construction – Dynamic Portfolio Website
+Task: Apply the following changes to the existing project only.
+Do NOT rebuild or restructure the project.
+
+🎯 REQUIRED CHANGE SUMMARY
+
+Enhance the Admin Image Management + User Gallery behavior so that:
+
+Images uploaded by Admin for completed work appear immediately on the User Website
+
+Admin can delete any uploaded image
+
+Deleted images must instantly disappear from the User Website
+
+Existing UI, pages, and features must remain unchanged
+
+🔐 ADMIN SIDE – REQUIRED CHANGES ONLY
+1️⃣ Image Delete Option (MANDATORY)
+
+Where:
+Admin Panel → Projects / Gallery
+
+Change Required:
+
+Add a Delete (🗑️) button on each uploaded project image
+
+Delete Button Behavior:
+
+On click → show confirmation popup:
+
+“Are you sure you want to delete this image?”
+
+On confirm:
+
+Image is removed from Admin panel
+
+Same image is removed from User-side gallery instantly
+
+No broken images or empty placeholders allowed
+
+2️⃣ Completed Work Control (Existing Feature Enhancement)
+
+Ensure the following behavior works perfectly:
+
+When Admin uploads images for a project marked as Completed
+
+And the project is visible on the website
+
+Those images must automatically appear on the User Website
+
+No extra publish step, refresh, or manual action required
+
+🌐 USER SIDE – REQUIRED CHANGES ONLY
+3️⃣ Completed Work Gallery Behavior
+
+Where:
+User Website → Projects / Completed Works section
+
+Change Required:
+
+Show only images of completed projects
+
+Gallery must:
+
+Update instantly when Admin adds an image
+
+Update instantly when Admin deletes an image
+
+Maintain existing grid / card layout
+
+Fully responsive (mobile, tablet, desktop)
+
+🎨 UI RULES (DO NOT CHANGE DESIGN)
+
+Keep current colors, fonts, layout
+
+Do not redesign pages
+
+Do not rename menus
+
+Only add:
+
+Delete icon/button in Admin
+
+Smooth transitions allowed
+
+⚠️ STRICT CONSTRAINTS
+
+❌ Do NOT redesign the project
+
+❌ Do NOT introduce new pages
+
+❌ Do NOT explain or expose backend logic
+
+❌ Do NOT change existing working features
+
+✅ Apply only the required changes
+
+✅ FINAL EXPECTED RESULT
+
+✔ Admin uploads completed work → visible on user site
+✔ Admin deletes image → removed everywhere instantly
+✔ Clean gallery
+✔ No UI break
+✔ Production-safe update
+
+✅ END OF CHANGE-ONLY PROMPT
